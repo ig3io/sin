@@ -1,0 +1,4 @@
+sin
+===
+
+Sinatra project template
