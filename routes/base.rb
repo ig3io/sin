@@ -1,10 +1,8 @@
 module Sin
   module Routes
     class Base < Sinatra::Base
-      configure do
-        set :views, App.views
-        set :root, App.root
-      end
+      set :views, App.views
+      set :root, App.root
 
       enable :static
 
